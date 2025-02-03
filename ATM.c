@@ -3,9 +3,7 @@
 #include<string.h>
 #include<time.h>
 
-/*
-  node structure for implementing a queue to store transaction history
-*/
+
 typedef struct node {
     char statement[50];
     struct node* link;
